@@ -29,7 +29,7 @@ export function CrtOverlay() {
         style={{
           boxShadow:
             "inset 0 0 140px 40px oklch(0 0 0 / 0.85), inset 0 0 30px 4px oklch(0 0 0 / 0.6)",
-          borderRadius: "22px",
+          borderRadius: "0px",
         }}
       />
       <div

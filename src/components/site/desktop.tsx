@@ -138,7 +138,7 @@ export function DesktopSection() {
           width={120}
           height={120}
           className="float-left mr-3 w-24 border border-border grayscale-[0.4] contrast-125"
-          style={{ imageRendering: "auto" }}
+          style={{ imageRendering: "auto", borderRadius: "0px" }}
         />
         <p className="font-mono text-[11px] leading-relaxed text-muted-foreground">
           {profile.bio[0]}

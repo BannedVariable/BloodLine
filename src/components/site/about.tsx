@@ -60,6 +60,7 @@ export function About() {
               width={512}
               height={512}
               className="w-full border border-border grayscale-[0.35] contrast-125"
+              style={{ borderRadius: "0px" }}
             />
             <p className="mt-3 font-cond text-2xl uppercase leading-none text-bone">
               {profile.name}

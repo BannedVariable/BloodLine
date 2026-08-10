@@ -51,7 +51,7 @@ export function Hero() {
               width={512}
               height={512}
               className="w-full border border-border grayscale-[0.4] contrast-125"
-              style={{ imageRendering: "auto" }}
+              style={{ imageRendering: "auto", borderRadius: "0px" }}
             />
             <span className="absolute bottom-1 left-1 font-mono text-[9px] text-toxic">
               [ USER PHOTO ]
