@@ -1,6 +1,6 @@
 [build]
   command = "npm install && npm run build"
-  publish = ".output/public"
+  publish = "dist"
   node_version = "20"
 
 [[redirects]]
