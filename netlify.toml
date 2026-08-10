@@ -1,6 +1,9 @@
 [build]
-  command = "npm run build:dev"
+  command = "npm ci && npm run build"
   publish = ".output/public"
+
+[functions]
+  node_bundler = "esbuild"
 
 [env.production]
   NODE_ENV = "production"
