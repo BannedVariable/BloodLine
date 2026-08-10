@@ -1,11 +1,9 @@
 [build]
   command = "bun run build"
   publish = ".output/public"
-
-[functions]
-  directory = ".output/server"
+  functions = ".output/server"
 
 [[redirects]]
   from = "/*"
-  to = "/.output/server/index.js"
+  to = "/.netlify/functions/index"
   status = 200
