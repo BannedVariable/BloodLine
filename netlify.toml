@@ -1,7 +1,12 @@
 [build]
   command = "npm install && npm run build"
-  publish = ".output/public"
+  publish = "dist"
   node_version = "20"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
 [env.production]
   NODE_ENV = "production"
