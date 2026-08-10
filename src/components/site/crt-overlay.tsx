@@ -21,7 +21,7 @@ export function CrtOverlay() {
         }}
       />
       <div
-        className="absolute inset-x-0 h-24 opacity-[0.06] animate-scan"
+        className="absolute inset-x-0 h-12 sm:h-24 opacity-[0.06] animate-scan"
         style={{ background: "linear-gradient(180deg, transparent, white, transparent)" }}
       />
       <div
