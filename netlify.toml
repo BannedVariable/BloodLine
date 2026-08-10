@@ -1,6 +1,7 @@
 [build]
-  command = "npm run build"
+  command = "echo 'Build skipped'"
   publish = ".output/public"
+  ignore = "false"
 
 [env.production]
   NODE_ENV = "production"
