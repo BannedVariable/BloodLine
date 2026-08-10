@@ -23,6 +23,9 @@ export function IPodPlayer() {
   // Only show when music is playing
   if (!player.isPlaying) return null;
 
+  // Hide on mobile
+  if (typeof window !== "undefined" && window.innerWidth < 768) return null;
+
   const pct = Math.min(100, (player.position / player.current.duration) * 100);
 
   const handleSeek = (e: React.MouseEvent<HTMLDivElement>) => {
